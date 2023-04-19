@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+}
+
+header nav img{
+    height: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*para fazer comentarios no css*/
+/*para colocar a imagem e a pasta certo com ajuda de ctrl+space*/
+header{
+    background: no-repeat center/cover url("viagem-pro-japao-viajante-colorido.webp");
+    height: calc(100vh - 100px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav p {
+    font-weight: left;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align:  center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 15rem;
+    color: rgb(22, 13, 151);
+}
+
+.Info .Info-title {
+    width: 100%;
+    text-align: center;
+    margin:25px 0;
+    font-size: 3rem;
+
+}
+
+.Info {
+    background: #70ef96;
+    padding: 15px;
+}
+
+.Info .Info-card{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Info img {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.Info .card{
+    width: 250px;
+    background: white;
+    border-radius: 25px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.Info .card-content {
+    padding: 0 15px;
+}
+
+.Info ,.card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.Info .card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.Info .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.Info .card-content h1{
+    font-size: 1rem;
+}
+
+.Info .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.Info .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.Info .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.Relato {
+    padding: 15px;
+}
+
+
+.Relato .Relato-title{
+    text-align: center;
+    margin: 35px 0;
+}
+
+.Relato .Relato-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+}
+
+.Relato .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos {
+    height: 550px;
+    background: rgb(70, 102, 121);
+}
+
+.contatos .linkedin svg {
+    color: white;
+    
+}
+
+.contatos .facebook svg {
+    color: #0d3c92;
+}
+
+.contatos .instagram svg {
+    color: rgb(156, 10, 144);
+}
