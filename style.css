@@ -8,6 +8,7 @@ body {
 ul{
     list-style: none;
     font-weight: bold;
+    color: rgb(214, 120, 83);
 }
 
 header nav img{
@@ -18,10 +19,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
-/*para fazer comentarios no css*/
-/*para colocar a imagem e a pasta certo com ajuda de ctrl+space*/
+
 header{
-    background: no-repeat center/cover url("viagem-pro-japao-viajante-colorido.webp");
+    background: no-repeat center/cover url("https://lh3.googleusercontent.com/aMrCSuUUs-NgZehtoQhkqybBHdCwFukUTzxpItV9_0xT7Dw_MBp0QVIkQuYohmxAMn6KjivDvqr9J8U=w1349-h649");
     height: calc(100vh - 100px);
 }
 
@@ -51,8 +51,8 @@ header nav p {
 
 .header-content h1 {
     margin-bottom: 10px;
-    font-size: 15rem;
-    color: rgb(22, 13, 151);
+    font-size: 6rem;
+    color: rgba(107, 25, 25, 0.918);
 }
 
 .Info .Info-title {
@@ -64,7 +64,7 @@ header nav p {
 }
 
 .Info {
-    background: #70ef96;
+    background: no-repeat center/cover url("https://lh3.googleusercontent.com/RZ_pOZw-_fyoer-9H0VFRDr6jPkCzrIpaJr_rUOwYQVXktg2SRMyg63PwxUoPUG9ynlwNPVap6tz_xU=w1366-h649") ;
     padding: 15px;
 }
 
@@ -145,6 +145,7 @@ header nav p {
 }
 
 .Relato {
+    background:  url("https://lh6.googleusercontent.com/Vce9lx5o5vi3c7cpUNPZdCrwiMHWe0nqEfWF20_zjJHG-YqvVOfptWVrFLXDE2KQjIveKZmkIrmKf9o=w1366-h592");
     padding: 15px;
 }
 
@@ -152,6 +153,7 @@ header nav p {
 .Relato .Relato-title{
     text-align: center;
     margin: 35px 0;
+    color: #0abd31;
 }
 
 .Relato .Relato-cards {
@@ -160,6 +162,7 @@ header nav p {
     max-width: 950px;
     justify-content: center;
     margin: auto;
+    color: #0abd31;
 }
 
 .Relato .card {
@@ -172,8 +175,9 @@ header nav p {
 }
 
 .contatos {
-    height: 550px;
+    height: 380px;
     background: rgb(70, 102, 121);
+    padding: 15px;
 }
 
 .contatos .linkedin svg {
