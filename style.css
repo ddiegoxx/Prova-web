@@ -153,7 +153,7 @@ header nav p {
 .Relato .Relato-title{
     text-align: center;
     margin: 35px 0;
-    color: #0abd31;
+    color: rgb(236, 71, 5);
 }
 
 .Relato .Relato-cards {
@@ -162,7 +162,7 @@ header nav p {
     max-width: 950px;
     justify-content: center;
     margin: auto;
-    color: #0abd31;
+    color:  rgb(236, 71, 5) ;
 }
 
 .Relato .card {
