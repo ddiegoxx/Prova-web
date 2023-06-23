@@ -21,7 +21,7 @@ a{
 }
 
 header{
-    background: no-repeat center/cover url("https://lh3.googleusercontent.com/aMrCSuUUs-NgZehtoQhkqybBHdCwFukUTzxpItV9_0xT7Dw_MBp0QVIkQuYohmxAMn6KjivDvqr9J8U=w1349-h649");
+    background: no-repeat center/cover url("intro.jpg");
     height: calc(100vh - 100px);
 }
 
@@ -64,7 +64,7 @@ header nav p {
 }
 
 .Info {
-    background: no-repeat center/cover url("https://lh3.googleusercontent.com/RZ_pOZw-_fyoer-9H0VFRDr6jPkCzrIpaJr_rUOwYQVXktg2SRMyg63PwxUoPUG9ynlwNPVap6tz_xU=w1366-h649") ;
+    background: no-repeat center/cover url("bg.jpg") ;
     padding: 15px;
 }
 
@@ -145,7 +145,7 @@ header nav p {
 }
 
 .Relato {
-    background:  url("https://lh6.googleusercontent.com/Vce9lx5o5vi3c7cpUNPZdCrwiMHWe0nqEfWF20_zjJHG-YqvVOfptWVrFLXDE2KQjIveKZmkIrmKf9o=w1366-h592");
+    background:  url("about.jpg");
     padding: 15px;
 }
 
